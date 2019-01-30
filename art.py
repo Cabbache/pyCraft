@@ -1,3 +1,9 @@
+#30/1/2019
+#this is python 2.7, not python 3
+#author: Cabbache
+#copyright!
+#visit my gallery in the creative server on play.extremecraft.net, /p v gallery
+
 import threading
 import time
 import math
