@@ -382,7 +382,9 @@ class Connection(object):
 
     def _handshake(self, next_state=STATE_PLAYING):
         handshake = serverbound.handshake.HandShakePacket()
-        handshake.protocol_version = self.context.protocol_version
+        #handshake.protocol_version = self.context.protocol_version
+        #print("version: " + str(self.context.protocol_version))
+        handshake.protocol_version = 340#extra
         handshake.server_address = self.options.address
         handshake.server_port = self.options.port
         handshake.next_state = next_state
