@@ -1,3 +1,4 @@
 cryptography>=1.5
 requests
 future
+numpy scipy
