@@ -81,8 +81,8 @@ verbose = False
 chatText = ""
 
 #CHANGE THESE
-USR="fazulle"
-PWD="kodil1"
+USR="user"
+PWD="pass"
 
 pos_look = PlayerPositionAndLookPacket.PositionAndLook()
 
