@@ -11,7 +11,7 @@ so it will require some modifiactions if it will be used on other servers. pic.j
 same folder for this to work. Make sure you change the 'USR' and 'PWD' variables in the code to that of a valid account
 on the server. Run art.py and you should have a console. Enter 'draw' so that the bot starts drawing, parameters are separated with semi colon. Check the code to see what commands it takes. 
 **Examples:**
-* >> ch:hello players
+* \<foo> ch:hello players
 * >> draw:intel
 * >> draw:cont
 * >> ch:/p auto
