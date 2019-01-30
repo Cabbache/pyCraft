@@ -12,7 +12,7 @@ same folder for this to work. Make sure you change the 'USR' and 'PWD' variables
 on the server. Run art.py and you should have a console. Enter 'draw' so that the bot starts drawing, parameters are separated with semi colon. Check the code to see what commands it takes. 
 **Examples:**
 * \>\> ch:hello players
-* >> draw:intel
-* >> draw:cont
-* >> ch:/p auto
-* >> verb
+* \>\> draw:intel
+* \>\> draw:cont
+* \>\> ch:/p auto
+* \>\> verb
