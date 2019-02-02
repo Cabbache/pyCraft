@@ -188,8 +188,8 @@ def get128():
 	sendChat("/p confirm")
 	result = 0
 	while result == 0:
-		closX = getClosest(pos_look.x)
-		closZ = getClosest(pos_look.z)
+		closX = getClosest(pos_look.x + (5 if pos_look.x > 0 else -5))
+		closZ = getClosest(pos_look.z + (5 if pos_look.z > 0 else -5))
 		print("Heading " + str(closX) + ", " + str(closZ))
 		goTo(closX, 70, closZ, 0.03)
 		print("arrived")
