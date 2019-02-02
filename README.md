@@ -17,3 +17,5 @@ on the server. Run art.py and you should have a console. Enter 'draw' so that th
 * \>\> draw:cont
 * \>\> ch:/p auto
 * \>\> verb
+
+There is a problem which causes the bot to get kicked often during printing. For linux users a solution to this is executing art.py like this: **while sleep 9;do echo "draw:cont" | timeout 350s python art.py;done** to stop it you must then do **kill -9 [pid]**. to find the pid do **ps aux**
