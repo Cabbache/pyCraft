@@ -3,7 +3,7 @@ This minecraft bot can draw .jpg images with blocks on plot surfaces.
 The pyCraft library was modified and some packets were added to make this possible.
 
 ### Dependencies
-Apart from the dependencies listed for pyCraft, this requires **scipy** and **numpy**
+Apart from the dependencies listed for pyCraft, this requires **PIL** for **Image**
 
 ### Usage
 It is not very user friendly and it is specifically made to work with the creative server on **play.extremecraft.net**,
